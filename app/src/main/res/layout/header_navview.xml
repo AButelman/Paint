@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/stroke_width_seek_bar"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1"
+        app:backgroundColor="#FF999999"
+        app:progressColor="#3F51B5"
+        app:textColor="#FFFFFFFF"
+        app:cornerRadius="40dp"
+        app:imageEnabled="false"
+        app:textEnabled="true"
+        app:max="100"
+        app:min="1"
+        app:step="1"
+        app:textBottomPadding="30"
+        app:textSize="20sp"
+        app:touchDisabled="true" />
+
+    <abak.tr.com.boxedverticalseekbar.BoxedVertical
+        android:id="@+id/opacity_seek_bar"
+        android:layout_width="50dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        app:backgroundColor="#FF999999"
+        app:progressColor="#3F51B5"
+        app:textColor="#FFFFFFFF"
+        app:cornerRadius="40dp"
+        app:imageEnabled="false"
+        app:textEnabled="true"
+        app:max="100"
+        app:min="1"
+        app:step="1"
+        app:textBottomPadding="30"
+        app:textSize="20sp"
+        app:touchDisabled="true" />
+
+    <Button
+        android:id="@+id/button_color_picker"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
